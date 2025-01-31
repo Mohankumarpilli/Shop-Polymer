@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="top-bar">
+        <div>
+            <nav class="navbar">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <ul class="menu">
+                    <li><a href="./Men's_Outwear.html">Men's Outwear</a></li>
+                    <li><a href="./Ladies_Outwear.html">Ladies Outwear</a></li>
+                    <li><a href="./Men's_T-shirt.html">Men's T-shirt</a></li>
+                    <li><a href="./Ladies_T-shirt.html">Ladies T-shirt</a></li>
+                </ul>
+                <label for="menu-toggle" class="overlay"></label>
+            </nav>
+        </div>
+        <div><a href="./index.html" class="shop">S H O P</a></div>
+        <div><a href="./cart.html" class=" cart fa fa-shopping-cart" style="font-size:24px"></a></div>
+    </div>
+
+    <div class="check-out-page">
+        <div class="checkout-span">
+            <h1 class="checkout-title">Checkout</h1>
+            <span class="checkout-desc">Shop is a demo app - form data will not be sent</span>
+        </div>
+
+        <div class="person-details">
+            <div class="first-half">
+                <h2 class="person-details-heading">Account Information</h2>
+                <input type="text" placeholder="Email" class="input-data">
+                <input type="text" placeholder="Phone Number" class="input-data">
+                <h2 class="person-details-heading">Shipping Address</h2>
+                <input type="text" placeholder="Address" class="input-data">
+                <input type="text" placeholder="City" class="input-data">
+                <div style="width: 100%;">
+                    <div class="state-postal">
+                        <input type="text" placeholder="State/Province" class="input-data">
+                        <input type="text" placeholder="Zip/Postal Code" class="input-data">
+                    </div>
+                </div>
+                <div class="lable-country">
+                    <label for="" class="lable-name">Country</label>
+                    <select name="" id="" class="country-selector">
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                        <option value="">Canada</option>
+                    </select>
+                </div>
+                <h2 class="person-details-heading">Billing Address</h2>
+                <div class="the-hidden-bill">
+                    <input type="checkbox" id="hide-bill" class="hidden-bill">
+                    <label for="">Use different billing address</label>
+                    <div id="hide" class="hidden-address">
+                        <input type="text" placeholder="Address" class="input-data">
+                        <input type="text" placeholder="City" class="input-data">
+                        <div style="width: 100%;">
+                            <div class="state-postal">
+                                <input type="text" placeholder="State/Province" class="input-data">
+                                <input type="text" placeholder="Zip/Postal Code" class="input-data">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-half">
+                <h2 class="person-details-heading">Payment Method</h2>
+                <input type="text" name="" id="" placeholder="Cardholder Name" class="input-data">
+                <input type="text" name="" id="" placeholder="Card Number" class="input-data">
+                <div class="month-year-cvv">
+                    <select name="" id="" class="month-selector">
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">Mar</option>
+                        <option value="">Apr</option>
+                        <option value="">May</option>
+                        <option value="">Jun</option>
+                        <option value="">Jul</option>
+                        <option value="">Aug</option>
+                        <option value="">Sep</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option>
+                    </select>
+                    <select name="" id="" class="month-selector">
+                        <option value="">2016</option>
+                        <option value="">2017</option>
+                        <option value="">2018</option>
+                        <option value="">2019</option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                    </select>
+                    <input type="text" placeholder="CVV" class="input-data">
+                </div>
+                <h2 class="person-details-heading">Order Summary</h2>
+                <div class="checkout-total-price">
+                    <h4 class="the-total-price">Men's Tech Shell Full-Zip</h4>
+                    <span>$100.40</span>
+                </div>
+                <div  class="checkout-total-price">
+                    <h4 class="the-total-price">Total</h4>
+                    <span>$100.40</span>
+                </div>
+                <a href="./placed-order.html" class="place-order">PLACE ORDER</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <a href="./placed-order.html" class="add-to-cart">PLACE ORDER</a>
+    </footer>
+</body>
+</html>
