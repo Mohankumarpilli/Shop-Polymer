@@ -302,6 +302,7 @@ footer{
     padding-left: 70px;
     height: 2vh;
     z-index: 0;
+    outline: none;
 }
 .select-container{
     position: relative;
@@ -590,6 +591,9 @@ p{
 .place-order{
     display: none;
 }
+.one-gap{
+    margin: 10px;
+}
 /* .cart-item{
     display: flex;
     flex-direction: row;
@@ -783,6 +787,19 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.a-tag{
+    margin: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-self: center;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    padding-top: 13px;
+    padding-left: 50px;
 }
 @media(min-width:360px){
     .select-size-price{
